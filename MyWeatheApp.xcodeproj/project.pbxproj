@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		515A621817C0B145004B68C3 /* coordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = 515A621717C0B145004B68C3 /* coordinates.m */; };
 		518FB3F017BF59F80081FD16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518FB3EF17BF59F80081FD16 /* UIKit.framework */; };
 		518FB3F217BF59F80081FD16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518FB3F117BF59F80081FD16 /* Foundation.framework */; };
 		518FB3F417BF59F80081FD16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518FB3F317BF59F80081FD16 /* CoreGraphics.framework */; };
@@ -24,6 +25,13 @@
 		518FB41917BF59FA0081FD16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518FB3F117BF59F80081FD16 /* Foundation.framework */; };
 		518FB42117BF59FA0081FD16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 518FB41F17BF59FA0081FD16 /* InfoPlist.strings */; };
 		518FB42417BF59FA0081FD16 /* MyWeatheAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 518FB42317BF59FA0081FD16 /* MyWeatheAppTests.m */; };
+		518FB42F17BF5A870081FD16 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518FB42E17BF5A870081FD16 /* DataViewController.m */; };
+		518FB43717BF79AD0081FD16 /* EditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 518FB43617BF79AD0081FD16 /* EditCell.m */; };
+		51E78AD617C01B5F0002EFB8 /* AddLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E78AD417C01B5F0002EFB8 /* AddLocationViewController.m */; };
+		51E78AD717C01B5F0002EFB8 /* AddLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51E78AD517C01B5F0002EFB8 /* AddLocationViewController.xib */; };
+		51E78AD917C074C60002EFB8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E78AD817C074C60002EFB8 /* MapKit.framework */; };
+		51E78ADB17C075930002EFB8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E78ADA17C075930002EFB8 /* CoreLocation.framework */; };
+		51E78ADE17C07ADA0002EFB8 /* LocationPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E78ADD17C07ADA0002EFB8 /* LocationPin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		515A621617C0B145004B68C3 /* coordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coordinates.h; sourceTree = "<group>"; };
+		515A621717C0B145004B68C3 /* coordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coordinates.m; sourceTree = "<group>"; };
+		515A621917C0B1B2004B68C3 /* SerializibleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerializibleObject.h; sourceTree = "<group>"; };
 		518FB3EC17BF59F80081FD16 /* MyWeatheApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeatheApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		518FB3EF17BF59F80081FD16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		518FB3F117BF59F80081FD16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +71,17 @@
 		518FB42017BF59FA0081FD16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		518FB42217BF59FA0081FD16 /* MyWeatheAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWeatheAppTests.h; sourceTree = "<group>"; };
 		518FB42317BF59FA0081FD16 /* MyWeatheAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWeatheAppTests.m; sourceTree = "<group>"; };
+		518FB42D17BF5A870081FD16 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		518FB42E17BF5A870081FD16 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		518FB43517BF79AD0081FD16 /* EditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCell.h; sourceTree = "<group>"; };
+		518FB43617BF79AD0081FD16 /* EditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCell.m; sourceTree = "<group>"; };
+		51E78AD317C01B5F0002EFB8 /* AddLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLocationViewController.h; sourceTree = "<group>"; };
+		51E78AD417C01B5F0002EFB8 /* AddLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLocationViewController.m; sourceTree = "<group>"; };
+		51E78AD517C01B5F0002EFB8 /* AddLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddLocationViewController.xib; sourceTree = "<group>"; };
+		51E78AD817C074C60002EFB8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		51E78ADA17C075930002EFB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		51E78ADC17C07AD90002EFB8 /* LocationPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationPin.h; sourceTree = "<group>"; };
+		51E78ADD17C07ADA0002EFB8 /* LocationPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationPin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E78ADB17C075930002EFB8 /* CoreLocation.framework in Frameworks */,
+				51E78AD917C074C60002EFB8 /* MapKit.framework in Frameworks */,
 				518FB3F017BF59F80081FD16 /* UIKit.framework in Frameworks */,
 				518FB3F217BF59F80081FD16 /* Foundation.framework in Frameworks */,
 				518FB3F417BF59F80081FD16 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +113,8 @@
 		518FB3E317BF59F80081FD16 = {
 			isa = PBXGroup;
 			children = (
+				51E78ADA17C075930002EFB8 /* CoreLocation.framework */,
+				51E78AD817C074C60002EFB8 /* MapKit.framework */,
 				518FB3F517BF59F80081FD16 /* MyWeatheApp */,
 				518FB41C17BF59FA0081FD16 /* MyWeatheAppTests */,
 				518FB3EE17BF59F80081FD16 /* Frameworks */,
@@ -122,7 +148,19 @@
 				518FB3FE17BF59F90081FD16 /* AppDelegate.h */,
 				518FB3FF17BF59F90081FD16 /* AppDelegate.m */,
 				518FB40717BF59F90081FD16 /* ViewController.h */,
+				51E78AD317C01B5F0002EFB8 /* AddLocationViewController.h */,
+				51E78AD417C01B5F0002EFB8 /* AddLocationViewController.m */,
+				51E78ADC17C07AD90002EFB8 /* LocationPin.h */,
+				51E78ADD17C07ADA0002EFB8 /* LocationPin.m */,
+				51E78AD517C01B5F0002EFB8 /* AddLocationViewController.xib */,
+				518FB42D17BF5A870081FD16 /* DataViewController.h */,
+				518FB42E17BF5A870081FD16 /* DataViewController.m */,
 				518FB40817BF59F90081FD16 /* ViewController.m */,
+				515A621617C0B145004B68C3 /* coordinates.h */,
+				515A621917C0B1B2004B68C3 /* SerializibleObject.h */,
+				515A621717C0B145004B68C3 /* coordinates.m */,
+				518FB43517BF79AD0081FD16 /* EditCell.h */,
+				518FB43617BF79AD0081FD16 /* EditCell.m */,
 				518FB40A17BF59F90081FD16 /* ViewController_iPhone.xib */,
 				518FB40D17BF59F90081FD16 /* ViewController_iPad.xib */,
 				518FB3F617BF59F80081FD16 /* Supporting Files */,
@@ -240,6 +278,7 @@
 				518FB40617BF59F90081FD16 /* Default-568h@2x.png in Resources */,
 				518FB40C17BF59F90081FD16 /* ViewController_iPhone.xib in Resources */,
 				518FB40F17BF59F90081FD16 /* ViewController_iPad.xib in Resources */,
+				51E78AD717C01B5F0002EFB8 /* AddLocationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +316,11 @@
 				518FB3FC17BF59F90081FD16 /* main.m in Sources */,
 				518FB40017BF59F90081FD16 /* AppDelegate.m in Sources */,
 				518FB40917BF59F90081FD16 /* ViewController.m in Sources */,
+				518FB42F17BF5A870081FD16 /* DataViewController.m in Sources */,
+				518FB43717BF79AD0081FD16 /* EditCell.m in Sources */,
+				51E78AD617C01B5F0002EFB8 /* AddLocationViewController.m in Sources */,
+				51E78ADE17C07ADA0002EFB8 /* LocationPin.m in Sources */,
+				515A621817C0B145004B68C3 /* coordinates.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +511,7 @@
 				518FB42917BF59FB0081FD16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		518FB42A17BF59FB0081FD16 /* Build configuration list for PBXNativeTarget "MyWeatheAppTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +520,7 @@
 				518FB42C17BF59FB0081FD16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
